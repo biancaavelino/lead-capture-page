@@ -12,65 +12,79 @@
 <body>
     <header>
         <a href="#" class="logo">logo</a>
-        <button id="sandwich"><i class="fas fa-bars"></i></button>
-        
-        <div id="nav-bar" class="nav-bar">
-            <a href="#" class="links">About Us</a>
-            <a href="#" class="links">Services</a>
-            <a href="#" class="links">Newsletter</a>
-        </div>
+        <nav>
+            <button id="sandwich"><i class="fas fa-bars"></i></button>
+            
+            <ul id="nav-bar" class="nav-bar">
+                <li>
+                    <a href="#" class="links">About Us</a>
+                </li>
+                <li>
+                    <a href="#" class="links">Services</a>
+                </li>
+                <li>
+                    <a href="#" class="links">Newsletter</a>
+                </li>
+            </ul>
+        </nav>
     </header>
 
-    <div class="container">
-        <div class="txt">
-            <h1>Apps <br> Development</h1>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ratione, iusto eveniet reiciendis ipsum.</p>
-            <div class="btn">Get started</div>
-        </div>
-        <img src="media/initialphoto1.png" alt="Ilustração de um homem virado de costas mexendo em um computador" class="main-photo">
-    </div>
-
-    <div class="about-us">
-        <img src="media/aboutus.png" alt="Ilustração de uma equipe corporativa" class="aboutus-photo">
-        <div class="txt">
-            <h2>About Us</h2>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ratione, iusto eveniet reiciendis ipsum.</p>
-        </div>
-    </div>
-
-    <div class="services">
-        <div class="txt">
-            <h2>Our Services</h2>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ratione, iusto eveniet reiciendis ipsum.</p>
-        </div>
-        <img src="media/servicos.png" alt="Ilustração de uma mulher trabalhando" class="services-photo">
-    </div>
-    
-    <div class="newsletter"> 
-        <div class="txt-nl">
-            <h2>Join our newsletter</h2>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
-        </div>
-        <div class="data">
-            <label for="name">Name</label>
-            <input type="text">
-            <label for="email">E-mail</label>
-            <input type="email" >
-        </div>
-        <div class="btn wht">Join Us</div>
-    </div>
+    <main>
+        <section class="container">
+            <article class="txt">
+                <h1>Apps <br> Development</h1>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ratione, iusto eveniet reiciendis ipsum.</p>
+                <div class="btn">Get started</div>
+            </article>
+            <img src="media/initialphoto1.png" alt="Ilustração de um homem virado de costas mexendo em um computador" class="main-photo">
+        </section>
+        <section class="about-us">
+            <img src="media/aboutus.png" alt="Ilustração de uma equipe corporativa" class="aboutus-photo">
+            <article class="txt">
+                <h2>About Us</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ratione, iusto eveniet reiciendis ipsum.</p>
+            </article>
+        </section>
+        <section class="services">
+            <article class="txt">
+                <h2>Our Services</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ratione, iusto eveniet reiciendis ipsum.</p>
+            </article>
+            <img src="media/servicos.png" alt="Ilustração de uma mulher trabalhando" class="services-photo">
+        </section>
+        
+        <section class="newsletter">
+            <article class="txt-nl">
+                <h2>Join our newsletter</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </article>
+            <form class="data">
+                <label for="name">Name</label>
+                <input type="text">
+                <label for="email">E-mail</label>
+                <input type="email" >
+            </form>
+            <span class="btn wht">Join Us</span>
+        </section>
+    </main>
 
     <footer>
-        <div class="social-media">
-            <a href="#"><i class="fab fa-facebook-f"></i></a>
-            <a href="#"><i class="fab fa-instagram"></i></a>
-            <a href="#"><i class="fab fa-twitter"></i></a>
-        </div>
-        <div class="infos">
+        <ul class="social-media">
+            <li>
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+            </li>
+            <li>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+            </li>
+            <li>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+            </li>
+        </ul>
+        <aside class="infos">
             <a href="#">Terms of Use |</a>
             <a href="#">Privacy Policy</a>
             <p> &copy; 2021 App Dev</p>
-        </div>
+        </aside>
     </footer>
 
     <script src="mobile-menu.js"></script>

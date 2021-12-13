@@ -7,6 +7,7 @@
     padding: 0;
     text-decoration: none;
     font-family: 'Roboto', sans-serif;
+    list-style: none;
 }
 
 :root{
@@ -48,6 +49,10 @@ a.logo{
     color: var(--darkred);
 }
 
+.nav-bar li{
+    display: inline;
+}
+
 .nav-bar a.links{
     color: white;
     padding-left: 20px;
@@ -59,7 +64,8 @@ a.logo{
     color: var(--darkred);
 }
 
-/*Main container*/
+/*Main*/
+/*container section*/
 .container{
     width: 100%;
     height: 90vh;
@@ -105,11 +111,11 @@ a.logo{
     cursor: pointer;
 }
 
-.main-photo{
+img.main-photo{
     width: 50%;
 }
 
-/*About us*/
+/*about us section*/
 .about-us{
     background-color: var(--red);
     width: 100%;
@@ -140,7 +146,7 @@ a.logo{
     margin-bottom: 40px;
 }
 
-/*Our Services*/
+/*our services section*/
 .services{
     width: 100%;
     height: 70vh;
@@ -162,7 +168,7 @@ a.logo{
     width: 43%;
 }
 
-/*Newsletter*/
+/*newsletter section*/
 .newsletter{
     background-color: var(--red);
     width: 100%;
@@ -246,7 +252,11 @@ footer a:hover{
     transition: ease-in-out .2s;
 }
 
-.social-media a{
+.social-media li{
+    display: inline;
+}
+
+.social-media li > a{
     margin-right: 20px; 
     font-size: 25px;
 }
